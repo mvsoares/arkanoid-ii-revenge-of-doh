@@ -1,0 +1,17 @@
+{
+  "name": "arkanoid-ii-revenge-of-doh",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Arkanoid II: Revenge of DOH — Browser Arcade & Evolved Edition",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^6.0.0",
+    "vite-plugin-singlefile": "^2.0.2"
+  }
+}
